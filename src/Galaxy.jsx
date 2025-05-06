@@ -15,7 +15,7 @@ export const Galaxy = ({ nbParticles = 1000 }) => {
       <>
          <mesh>
             <boxGeometry args={[1, 1, 1]} />
-            <meshBasicMaterial color={"blue"} />
+            <meshBasicMaterial color={"green"} />
          </mesh>
          {/* <Instances range={nbParticles} limit={nbParticles}>
             <Particles position={[1, 1, 1]} />
